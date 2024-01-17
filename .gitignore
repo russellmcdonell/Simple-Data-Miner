@@ -1,0 +1,6 @@
+*.ipynb
+*.pyc
+*.swp
+logs/*
+tmp/*
+backup/*

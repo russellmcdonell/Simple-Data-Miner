@@ -1,0 +1,36 @@
+
+{
+	"/* comment */": [
+			"This is the configurations file for Clinical Costing system."
+	],
+	"MySQL": {
+		"/* comment */": [
+			"The configuration variables for MySQL",
+			"connectionString - connection string for MySQL [required]",
+			"user - the username for connecting to the database [required]",
+			"passwd - the user password for connecting to the database [required]",
+			"server - the server and port for connectin to the database server [required]",
+			"databaseName - the default database [optional]"
+		],
+		"connectionString": "mysql+mysqlconnector://{username}:{password}@{server}/{databaseName}",
+		"username": "root",
+		"password": "example",
+		"server": "localhost",
+		"databaseName": "clinicalcosting"
+	},
+	"MSSQL": {
+		"/* comment */": [
+			"The configuration variables for MSSQL",
+			"connectionString - connection string for MSSQL [required]",
+			"user - the username for connecting to the database [required]",
+			"passwd - the user password for connecting to the database [required]",
+			"server - the server and port for connectin to the database server[required]",
+			"databaseName - the default database [optional]"
+		],
+		"connectionString": "mssql+pyodbc://{username}:{password}@{server}/{databaseName}?driver=SQL+Server",
+		"username": "root",
+		"password": "example",
+		"server": "localhost:1433",
+		"databaseName": "clinicalcosting"
+	}
+}
